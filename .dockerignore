@@ -1,0 +1,10 @@
+.git
+.github
+.idea
+__pycache__
+*.pyc
+.DS_Store
+.env
+prototype.db
+build
+tests/__pycache__
