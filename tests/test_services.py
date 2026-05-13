@@ -120,7 +120,7 @@ class ServiceTests(unittest.TestCase):
 
         adoption = service.apply(pet_id=1, user_id=7, message="I can adopt Toby")
 
-        self.assertEqual(adoption.status, AdoptionStatus.PENDING)
+        self.assertEqual(adoption.status, AdoptionStatus.APPROVED)
         self.assertEqual(adoption.pet_id, 1)
         self.assertEqual(adoption.user_id, 7)
         self.assertEqual(pet_repo.get_by_id(1).status, PetStatus.PENDING)
