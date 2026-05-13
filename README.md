@@ -105,6 +105,9 @@ Porque o historico do Git preserva essas informacoes mesmo depois de apagar o ar
 
 Nao houve diferenca de comportamento observada entre Python 3.12 e Python 3.13.
 
+### Pipeline de Pull Request com Status Check
+![img.png](img.png)
+
 ### Por que paralelismo importa em pipelines de CI?
 
 Porque reduz o tempo de espera. Jobs independentes, como testes e build Docker, podem rodar ao mesmo tempo, dando retorno mais rapido para o time e facilitando identificar qual parte falhou.
