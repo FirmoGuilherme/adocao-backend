@@ -114,3 +114,7 @@ Porque reduz o tempo de espera. Jobs independentes, como testes e build Docker, 
 A tag `latest` aponta para a versao mais recente publicada da imagem. Ela e pratica para ambientes de teste ou uso rapido, mas pode mudar a cada novo deploy.
 
 A tag por SHA usa o identificador do commit, por exemplo `${{ github.sha }}`. Ela aponta para uma versao exata e imutavel do codigo, sendo melhor para auditoria, rollback e producao.
+
+
+## Imagem Docker
+docker push firmo10/adocao-backend:tagname
